@@ -1,0 +1,4 @@
+*.pyc
+model/
+.spyderproject
+ParameterPerformance.txt
