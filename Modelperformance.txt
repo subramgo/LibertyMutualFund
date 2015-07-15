@@ -1,0 +1,91 @@
+    estimator = GradientBoostingRegressor(learning_rate=0.05,\
+        n_estimators=1500, max_leaf_nodes=4, loss='lad')
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+[Parallel(n_jobs=2)]: Done   1 jobs       | elapsed:  9.6min
+[Parallel(n_jobs=2)]: Done   2 jobs       | elapsed:  9.7min
+[Parallel(n_jobs=2)]: Done   5 jobs       | elapsed: 31.9min
+[Parallel(n_jobs=2)]: Done   8 jobs       | elapsed: 50.1min
+[Parallel(n_jobs=2)]: Done  13 jobs       | elapsed: 92.5min
+[Parallel(n_jobs=2)]: Done  18 jobs       | elapsed: 123.4min
+[Parallel(n_jobs=2)]: Done  25 jobs       | elapsed: 172.8min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.04 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.04, score=0.363351 - 9.5min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.04 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.04, score=0.360793 - 9.4min
+[CV] gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.04 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.04, score=0.363359 -12.9min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.04 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.04, score=0.352172 -15.2min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.04 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.04, score=0.356077 -15.0min
+[CV] gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.04 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.04, score=0.353941 -21.1min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.05 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.05, score=0.361144 - 9.3min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.05 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.05, score=0.359181 - 9.2min
+[CV] gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.05 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.05, score=0.364673 -12.3min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.05 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.05, score=0.352524 -14.6min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.05 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.05, score=0.354465 -14.4min
+[CV] gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.05 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.05, score=0.353641 -20.7min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.06 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.06, score=0.363210 - 9.1min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.06 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.06, score=0.363921 - 9.7min
+[CV] gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, g[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.04 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.04, score=0.364164 - 9.6min
+[CV] gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.04 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.04, score=0.362986 -12.5min
+[CV] gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.04 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.04, score=0.359144 -12.6min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.04 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.04, score=0.354675 -15.4min
+[CV] gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.04 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.04, score=0.353764 -20.1min
+[CV] gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.04 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.04, score=0.355679 -19.7min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.05 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.05, score=0.360709 - 9.6min
+[CV] gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.05 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.05, score=0.362742 -12.2min
+[CV] gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.05 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.05, score=0.358501 -11.8min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.05 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.05, score=0.356559 -15.1min
+[CV] gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.05 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.05, score=0.350533 -19.2min
+[CV] gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.05 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, gbm__learning_rate=0.05, score=0.354687 -20.8min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.06 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.06, score=0.362824 - 8.8min
+[CV] gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.06 
+[CV]  gbm__subsample=1.0, gbm__n_estimators=2000, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=4, gbm__learning_rate=0.06, score=0.366594 -12.5min
+[CV] gbm__subsample=1.0, gbm__n_estimators=1500, gbm__loss=lad, gbm__max_features=1.0, gbm__max_depth=6, g[Parallel(n_jobs=2)]: Done  32 jobs       | elapsed: 222.2min
+[Parallel(n_jobs=2)]: Done  34 out of  36 | elapsed: 240.9min remaining: 14.2min
+[Parallel(n_jobs=2)]: Done  36 out of  36 | elapsed: 258.7min finished
+[mean: 0.36277, std: 0.00144, params: {'gbm__subsample': 1.0, 'gbm__n_estimators': 1500, 'gbm__loss': 'lad', 'gbm__max_features': 1.0, 'gbm__max_depth': 4, 'gbm__learning_rate': 0.04}, mean: 0.36183, std: 0.00190, params: {'gbm__subsample': 1.0, 'gbm__n_estimators': 2000, 'gbm__loss': 'lad', 'gbm__max_features': 1.0, 'gbm__max_depth': 4, 'gbm__learning_rate': 0.04}, mean: 0.35431, std: 0.00161, params: {'gbm__subsample': 1.0, 'gbm__n_estimators': 1500, 'gbm__loss': 'lad', 'gbm__max_features': 1.0, 'gbm__max_depth': 6, 'gbm__learning_rate': 0.04}, mean: 0.35446, std: 0.00086, params: {'gbm__subsample': 1.0, 'gbm__n_estimators': 2000, 'gbm__loss': 'lad', 'gbm__max_features': 1.0, 'gbm__max_depth': 6, 'gbm__learning_rate': 0.04}, mean: 0.36034, std: 0.00084, params: {'gbm__subsample': 1.0, 'gbm__n_estimators': 1500, 'gbm__loss': 'lad', 'gbm__max_features': 1.0, 'gbm__max_depth': 4, 'gbm__learning_rate': 0.05}, mean: 0.36197, std: 0.00258, params: {'gbm__subsample': 1.0, 'gbm__n_estimators': 2000, 'gbm__loss': 'lad', 'gbm__max_features': 1.0, 'gbm__max_depth': 4, 'gbm__learning_rate': 0.05}, mean: 0.35452, std: 0.00165, params: {'gbm__subsample': 1.0, 'gbm__n_estimators': 1500, 'gbm__loss': 'lad', 'gbm__max_features': 1.0, 'gbm__max_depth': 6, 'gbm__learning_rate': 0.05}, mean: 0.35295, std: 0.00176, params: {'gbm__subsample': 1.0, 'gbm__n_estimators': 2000, 'gbm__loss': 'lad', 'gbm__max_features': 1.0, 'gbm__max_depth': 6, 'gbm__learning_rate': 0.05}, mean: 0.36332, std: 0.00045, params: {'gbm__subsample': 1.0, 'gbm__n_estimators': 1500, 'gbm__loss': 'lad', 'gbm__max_features': 1.0, 'gbm__max_depth': 4, 'gbm__learning_rate': 0.06}, mean: 0.36428, std: 0.00164, params: {'gbm__subsample': 1.0, 'gbm__n_estimators': 2000, 'gbm__loss': 'lad', 'gbm__max_features': 1.0, 'gbm__max_depth': 4, 'gbm__learning_rate': 0.06}, mean: 0.35244, std: 0.00159, params: {'gbm__subsample': 1.0, 'gbm__n_estimators': 1500, 'gbm__loss': 'lad', 'gbm__max_features': 1.0, 'gbm__max_depth': 6, 'gbm__learning_rate': 0.06}, mean: 0.35503, std: 0.00209, params: {'gbm__subsample': 1.0, 'gbm__n_estimators': 2000, 'gbm__loss': 'lad', 'gbm__max_features': 1.0, 'gbm__max_depth': 6, 'gbm__learning_rate': 0.06}]
+Training gini = 0.468
+[ 1.51916277  2.07864226] [ 2.  4.]
+dev gini = 0.378
+[ 3.55478023  4.5046252 ] [ 30.   4.]
+[[  2.  12.   0.   0.   0.   0.   1.   0.   0.   0.   0.   0.   0.   0.
+    0.   1.   0.   0.  15.   2.   0.   0.   0.   0.   0.   0.   1.   0.
+    0.   1.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.
+    0.   0.   0.   0.   1.   0.  13.   4.   0.   1.   0.   0.   0.   0.
+    0.   0.   1.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   1.
+    0.   1.   0.   0.   0.   1.   0.   0.   0.   0.   1.   0.   0.   0.
+   48.   6.   0.   1.   1.   0.   0.   0.   0.   0.   1.   2.   7.  11.
+    0.   1.   7.   1.   0.   0.   0.   0.   0.   2.  28.   1.  22.]
+ [ 10.   8.   0.   0.   0.   0.   0.   0.   0.   0.   0.   1.   0.   0.
+    0.   1.   0.   0.  15.   1.   1.   0.   0.   0.   0.   0.   0.   0.
+    0.   0.   0.   0.   0.   0.   0.   0.   1.   0.   0.   0.   0.   0.
+    0.   0.   0.   0.   1.   0.  10.   7.   0.   0.   0.   0.   0.   1.
+    0.   0.   0.   0.   1.   0.   0.   0.   0.   0.   0.   0.   0.   1.
+    0.   1.   0.   0.   0.   1.   0.   0.   0.   0.   1.   0.   0.   0.
+   14.   3.   0.   1.   1.   0.   0.   0.   0.   0.   1.   5.   8.  10.
+    0.   1.  14.   1.   0.   0.   0.   0.   0.   3.  28.   1.   4.]]
+>>> 
